@@ -1,0 +1,50 @@
+.simple-editor .quill {
+  width: max-content;
+  min-width: 50px;
+}
+
+.simple-editor .quill .ql-container {
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+
+/* Bubble Theme */
+.simple-editor .quill .ql-container .ql-editor {
+  box-sizing: border-box;
+  line-height: 1.42;
+  height: 100%;
+  outline: none;
+  overflow-y: auto;
+  padding: 5px 15px;
+  tab-size: 4;
+  text-align: left;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.simple-editor .quill .ql-container .ql-tooltip {
+  width: max-content;
+  z-index: 20;
+}
+
+.simple-editor .quill .ql-container .ql-editor > p {
+  font-size: 14px;
+  font-family: initial;
+  font-weight: 500;
+}
+
+.ql-editor ul[data-checked="false"] > li::before {
+  color: transparent !important;
+}
+
+.ql-editor ul[data-checked="true"] > li::before {
+  content: "✓" !important;
+}
+
+.simple-editor .quill .ql-container .ql-clipboard {
+  display: none;
+}
+
+.simple-editor .quill .ql-container .ql-editor > p > strong {
+  font-weight: 300 !important;
+}

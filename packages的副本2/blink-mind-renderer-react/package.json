@@ -1,0 +1,5 @@
+{
+  "name": "@blink-mind/renderer-react",
+  "files": ["dist/"],
+  "version": "0.0.20-beta.12"
+}
