@@ -1,0 +1,12 @@
+{
+  "name": "@blink-mind/core",
+  "files": ["dist/"],
+  "main": "dist/index.js",
+  "module": "dist/main.es.js",
+  "types": "dist/index.d.ts",
+  "version": "0.0.20-beta.12",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}

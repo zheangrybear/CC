@@ -1,0 +1,27 @@
+/**
+ * The outline of where the element will go if dropped, displayed while dragging
+ */
+.rst__placeholderLandingPad,
+.rst__placeholderCancelPad {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.rst__placeholderLandingPad *,
+.rst__placeholderCancelPad * {
+  opacity: 0 !important;
+}
+
+.rst__placeholderLandingPad::before,
+.rst__placeholderCancelPad::before {
+  background-color: lightblue;
+  border-color: white;
+}
+
+/**
+ * Alternate appearance of the landing pad when the dragged location is invalid
+ */
+.rst__placeholderCancelPad::before {
+  background-color: var(--red-300);
+}
